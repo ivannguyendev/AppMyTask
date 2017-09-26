@@ -1,0 +1,28 @@
+<md-toolbar color="primary">
+    <span>{{newTaskLbl}}</span>
+    <span class="example-spacer"></span>
+    <button md-icon-button (click)="onNoClick()">
+        <md-icon class="md-18|md-24|md-36|md-48">clear</md-icon>
+    </button>
+</md-toolbar>
+
+<form #f="ngForm" novalidate>
+    <div id='add-form' md-dialog-content>
+        <md-form-field>
+          <input name='subject' ngModel required #first="ngModel"  style="font-size: 20px; font-weight:bold; display: block; width: 190px;" autofocus mdInput tabindex="1" placeholder={{placeholderSubLbl}}>
+          <hr>
+          <input name='time' ngModel required tabindex="2"  mdInput [mdDatepicker]="picker" placeholder={{placeholderTimeLbl}}>
+            <md-datepicker-toggle mdSuffix [for]="picker"></md-datepicker-toggle>
+          <md-datepicker #picker></md-datepicker>
+          <hr>
+        </md-form-field>
+      </div>
+      
+      <app-file-upload></app-file-upload>
+      
+</form>
+<div md-dialog-actions>
+    <!-- <button md-button  tabindex="3">{{uploadLbl}}</button> -->
+    <span class="example-spacer"></span>
+    <button md-button (click)="createTask(f); onNoClick()" tabindex="4">{{saveLbl}}</button>
+  </div>

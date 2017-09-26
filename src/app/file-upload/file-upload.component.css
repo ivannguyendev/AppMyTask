@@ -1,0 +1,27 @@
+img{
+    overflow: hidden;
+    position: relative;
+    height: 70px;
+    margin: 6px 6px;
+}
+input[type=file]{
+    opacity: 0;
+}
+.form-group{
+    margin: 5px 0px 5px 5px;
+    border: 1px dashed lightgray;
+    width: 70px;
+    height: 70px;
+}
+.form-group input{
+    width: 0px;
+}
+.form-group label{
+    margin: auto auto;
+}
+span a{
+    text-decoration: none !important;
+}
+span a img{
+    float: left;
+}

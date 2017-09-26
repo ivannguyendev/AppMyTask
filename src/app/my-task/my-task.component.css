@@ -1,0 +1,14 @@
+#btn-remove{
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+md-card p{
+    margin: 2px 2px;
+}
+md-card{
+    padding: 10x 10px;
+}
+md-card div{
+    position: relative;
+}

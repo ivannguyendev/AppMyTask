@@ -1,0 +1,17 @@
+<app-toolbar-top></app-toolbar-top>
+<!-- <add-task-dialog (eEvent)="reload($event)"></add-task-dialog> -->
+    <div *ngFor="let task of listTask">
+      <md-card>
+        <div>
+            <p style="font-size: 20px; font-weight: bold;">{{task.subject}}</p>
+            <p>{{task.time}}</p>
+            <span class="example-spacer"></span>
+            <button id="btn-remove" md-icon-button (click)="delete(task)">
+                <md-icon class="md-18|md-24|md-36|md-48">remove_circle</md-icon>
+            </button>
+        </div>
+        </md-card>
+      </div>
+
+
+      

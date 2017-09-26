@@ -1,0 +1,14 @@
+main {
+    overflow-y: auto;
+  }
+  .center{
+    width: 80%;
+    margin: 10px auto;
+  }
+  
+  .main-div{
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }

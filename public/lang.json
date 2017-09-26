@@ -1,0 +1,24 @@
+{
+    "en-vn":{
+        "skip": "Bỏ qua",
+        "greeting1": "Công cụ theo dõi công việc tuyệt vời cho bạn",
+        "greeting2": "Bắt đầu nào",
+        "myTask": "Lịch đã hẹn",
+        "newTask": "Thêm mới",
+        "upload": "Tải lên",
+        "save": "Lưu",
+        "placeHolderSub": "Việc cần làm",
+        "placeHolderTime": "Thời gian thực hiện"
+    },
+    "en-us":{
+        "skip": "Skip",
+        "greeting1": "Manage your tasks better than ever before",
+        "greeting2": "Never be late",
+        "myTask": "My task",
+        "newTask": "New Task",
+        "upload": "Upload",
+        "save": "Save",
+        "placeHolderSub": "Your Task",
+        "placeHolderTime": "Time"
+    }
+}

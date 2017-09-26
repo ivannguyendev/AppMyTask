@@ -1,0 +1,11 @@
+<footer>
+    <md-toolbar color="primary" >
+            <button md-button [mdMenuTriggerFor]="menu">{{langChoose}}</button>
+            <md-menu #menu="mdMenu" color="primary">
+              <button md-menu-item (click)='langChoose="TiếngViệt"; changeLang("en-vn")' >VietNam</button>
+              <button md-menu-item (click)='langChoose="English"; changeLang("en-us")'>English</button>
+            </md-menu>
+            <span class="example-spacer"></span>
+            <a  [routerLink]='["/mytask"]' md-button >{{skip}}</a>
+    </md-toolbar>
+</footer>
